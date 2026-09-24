@@ -1,21 +1,37 @@
-header{
-
+*{
+    padding: 0;
+    margin: 0;
 }
-nav{
 
+body{
+height: 100vh;
+min-height: 100vh;
+}
+header{
+background-color: #211612;
+height: 250px;
+margin: 0;
 }
 main{
-
 }
 #hero{
-
+background-color: green;
+height: 754px;
 }
 #bundle{
-    
+background-color: #211612;
+height: 1508px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+align-items: center;
 }
 article{
-
+background-color: white;
+height: 700px;
+width: 566px;
 }
 footer{
-
+background-color: #8565d6;
+height: 400px;
 }
