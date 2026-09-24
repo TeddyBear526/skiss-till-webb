@@ -17,6 +17,7 @@ main{
 #hero{
 background-color: green;
 height: 754px;
+contain: content;
 }
 #bundle{
 background-color: #211612;
@@ -30,6 +31,7 @@ article{
 background-color: white;
 height: 700px;
 width: 566px;
+contain:content;
 }
 footer{
 background-color: #8565d6;
