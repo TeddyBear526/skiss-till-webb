@@ -7,31 +7,112 @@ body{
 height: 100vh;
 min-height: 100vh;
 }
+
+img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
 header{
 background-color: #211612;
 height: 250px;
 margin: 0;
 }
-main{
-}
+
 #hero{
-background-color: green;
 height: 754px;
-contain: content;
+display: flex;
+flex-direction: row;
+background-color: #f4f3ef;
 }
+
+#hero h2{
+    font-size: 62pt;
+    font-family: avenir-lt-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal; 
+}
+
+#hero p{
+    font-size: 48pt;
+    font-family: avenir-lt-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.picture{
+    min-width: 1119px;
+    contain: content;
+}
+
+#heroinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;;
+}
+
+#hero button{
+    height: 129px;
+    width: 393px;
+}
+
 #bundle{
 background-color: #211612;
 height: 1508px;
 display: flex;
-flex-wrap: wrap;
 justify-content: space-evenly;
 align-items: center;
+flex-wrap: wrap;
 }
-article{
-background-color: white;
+
+#bundle h2{
+    font-size: 42pt;
+    font-family: avenir-lt-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#bundle p{
+    font-size: 24pt;
+    font-family: avenir-lt-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.arti{
+background-color: #f4f3ef;
+display: flex;
+flex-direction: column;
 height: 700px;
 width: 566px;
 contain:content;
+}
+
+.pictures{
+    height: 352px;
+    width: 566px;
+    contain: content;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 348px;
+}
+.calltoaction{
+    display: flex;
+}
+button{
+    height: 91px;
+    width: 288px;
+    font-size: 24pt;
+    border-style: none;
+    background-color: #f4f3ef;
+    text-decoration: underline;
+}
+.brightbtn{
+    background-color: #8565d6;
+    color: #f4f3ef;
 }
 footer{
 background-color: #8565d6;
