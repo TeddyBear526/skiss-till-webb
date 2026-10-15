@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Lager_2" data-name="Lager 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 252.31 56.11">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #211612;
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #f4f3ef;
+        font-family: Avenir-Heavy, Avenir;
+        font-size: 24px;
+        font-weight: 800;
+      }
+    </style>
+  </defs>
+  <g id="Lager_1-2" data-name="Lager 1">
+    <g>
+      <rect class="cls-1" width="252.31" height="56.11"/>
+      <text class="cls-2" transform="translate(71.47 37.05)"><tspan x="0" y="0">Subscribe</tspan></text>
+    </g>
+  </g>
+</svg>
