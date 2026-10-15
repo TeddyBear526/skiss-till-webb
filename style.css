@@ -2,10 +2,15 @@
     padding: 0;
     margin: 0;
 }
+:root{
+    --main-margin: 2rem;
+    --main-padding: 2rem;
+}
 
 body{
     height: 100vh;
     min-height: 100vh;
+    background-color: #211612;
 }
 
 #hero img{
@@ -21,9 +26,8 @@ body{
 }
 
 header{
-    background-color: #211612;
+    margin: var(--main-margin);
     height: 250px;
-    margin: 0;
     color: #f4f3ef;
     display: flex;
     justify-content: space-evenly;
@@ -43,6 +47,10 @@ header{
 #title-logo img{
     height: 77px;
     width: 357px;
+}
+
+#title-logo span{
+    color: #8565d6;
 }
 
 nav{
@@ -104,26 +112,35 @@ h1{
     justify-content: space-between ;
 }
 
+.title{
+    margin: 20px;
+}
+
 #hero button{
     height: 129px;
     width: 393px;
 }
 
 .Events{
+    margin-top: var(--main-margin);
+    margin-left: var(--main-margin);
+    margin-right: var(--main-margin);
     background-color: #211612;
-    padding-left: 55px;
     font-size: 48pt;
     font-family: "arsenica-display", sans-serif;
-    font-weight: 400;
+    font-weight: 700;
     font-style: normal;
     color: #f4f3ef;
 }
 
 #bundle{
+    margin-bottom: var(--main-margin);
+    margin-left: var(--main-margin);
+    margin-right: var(--main-margin);
     background-color: #211612;
     height: 1508px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     contain: content;
@@ -143,12 +160,12 @@ h1{
     font-style: normal;
 }
 .arti{
-background-color: #f4f3ef;
-display: flex;
-flex-direction: column;
-height: 700px;
-width: 566px;
-contain:content;
+    background-color: #f4f3ef;
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    width: 566px;
+    contain:content;
 }
 
 .pictures{
@@ -178,10 +195,11 @@ button{
     color: #f4f3ef;
 }
 footer{
-background-color: #8565d6;
-height: 389px;
-display: flex;
-flex-direction: column;
+    background-color: #8565d6;
+    height: 389px;
+    display: flex;
+    flex-direction: column;
+    padding: var(--main-padding);
 }
 
 #footer-info{
@@ -192,7 +210,6 @@ flex-direction: column;
 
 .logo-adress{
     display: flex;
-    margin-left: 20px;
     align-items: end;
     font-size: 24pt;
     font-family: avenir-lt-pro, sans-serif;
@@ -207,7 +224,7 @@ flex-direction: column;
 }
 
 .foot-info{
-    width: 50vw;
+    width: 47.3vw;
     place-content: center;
     font-size: 28pt;
     font-family: "arsenica-display", sans-serif;
@@ -215,9 +232,11 @@ flex-direction: column;
     font-style: normal;
     color: #f4f3ef;
 }
+.foot-info span{
+    color: #211612;
+}
 
 #foot-nav-cta{
-    margin-left: 20px;
     height: 300px;
     display: flex;
     justify-content:space-between;
@@ -242,16 +261,21 @@ flex-direction: column;
     width: 100%;
 }
 
+#text1 p{
+    margin-bottom: 5px;
+}
+
 
 #foot-nav figure{
     width: 250px;
     display: flex;
-    justify-content: space-between;
-    margin: 0;
+    justify-content: flex-start;
+    margin-bottom: 40px;
 }
 #foot-nav img{
     height: 24px;
     width: 24px;
+    margin-right: 20px;
 }
 
 #foot-cta{
@@ -273,7 +297,8 @@ flex-direction: column;
 
 #cta{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-top: 15px;
 }
 
 #cta img{
@@ -288,4 +313,5 @@ flex-direction: column;
 #Subscribe{
     width: 252px;
     height: 56px;
+    margin-right: 15px;
 }
